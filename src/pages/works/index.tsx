@@ -5,7 +5,6 @@ import {RiPagesLine} from 'react-icons/Ri'
 import styles from "./styles.module.sass"
 import PrimaryShape from './../../components/primaryShape/index';
 import Carousel from './../../components/carousel/index';
-import Header from "../../components/header"
 
 
 function Works() {
