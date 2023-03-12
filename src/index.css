@@ -1,0 +1,56 @@
+@font-face {
+  font-family: chapaza;
+  src: url('./assets/fonts/Chapaza.ttf');
+}
+
+@font-face {
+  font-family: sanFrancisco;
+  src: url('./assets/fonts/SanFrancisco.otf');
+}
+
+@font-face {
+  font-family: sanFrancisco-bold;
+  src: url('./assets/fonts/SanFrancisco-bold.otf');
+}
+
+@font-face {
+  font-family: sanFrancisco-medium;
+  src: url('./assets/fonts/SanFransico-medium.otf');
+}
+
+@font-face {
+  font-family: sanFrancisco-text-medium;
+  src: url('./assets/fonts/SanFrancisco-text-medium.otf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+:root {
+  font-family: sanFrancisco;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --main-bg-color: #FCFDF8;
+  --secundary-titles-color: #396361;
+  --button-color: #D9A888;
+  --description-color: #8F8F8F;
+  --subtitles-color: #6983A7;
+  --text-color: #494848;
+  --green-300: #B4C5BB;
+  --blue-300: #B6CEF0;
+  --link-color:#4E70A0;
+  --icon-color:#F0E8C1;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}

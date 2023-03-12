@@ -1,0 +1,83 @@
+.container
+    width: 80%
+    margin: 0 auto
+    display: flex
+    flex-direction: column
+    margin-top: 15vh
+
+    .topContainer
+        width: 100%
+
+        @media screen
+        @media(min-width:500px)
+            width: 60%
+
+        h1
+            font-family: chapaza
+            font-size: 5rem
+            color: var(--secundary-titles-color)
+
+            @media screen
+            @media(max-width:600px)
+                font-size: 3rem
+
+        h2
+            font-family: sanFrancisco-medium
+            font-size: 1.438rem
+            color: var(--description-color)
+            margin-top: 2vh
+        .shapeContainer
+            width: 100%
+            height: 6vh
+
+        .links
+            display: flex
+            margin-top: 3vh
+            a
+                background-color: var(--button-color)
+                color: #fff
+                padding: .313rem
+                padding-left: .938rem
+                padding-right: .938rem
+                border-radius: 3.125rem
+                display: flex
+                align-items: center
+                justify-content: center
+                font-family: sanFrancisco
+                text-decoration: none
+                margin-right: 10px
+                font-size: 1.25rem
+                &:hover
+                    filter: brightness(90%)
+
+    .stack
+        div
+            display: flex
+            flex-wrap: wrap
+
+            p
+                margin-right: 1vw
+                border-radius: 6px
+                padding: 3px 10px 3px 10px
+                font-family: sanFrancisco-bold
+                font-size: 18px
+                color: #fff
+                margin-top: 0.5rem
+    section
+        margin-top: 5vh
+
+        @media screen
+        @media(min-width:800px)
+            width: 50%
+
+        h1
+            font-family: chapaza
+            color: var( --subtitles-color)
+            font-size: 1.875rem
+
+    .history
+        p
+            text-align: justify
+            font-family: sanFrancisco
+            font-size: 1.3rem
+            color: var(--text-color)
