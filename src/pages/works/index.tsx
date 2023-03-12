@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import useGetWork from "../../hooks/useGetWork";
 import {IoLogoGithub} from 'react-icons/io'
-import {RiPagesLine} from 'react-icons/Ri'
+import {RiPagesLine} from 'react-icons/ri'
 import styles from "./styles.module.sass"
 import PrimaryShape from './../../components/primaryShape/index';
 import Carousel from './../../components/carousel/index';
