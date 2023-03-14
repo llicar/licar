@@ -21,7 +21,8 @@ function App() {
 
             <section id="about" className={styles.about}>
                     <h1>Sobre mim</h1>
-                    <p>Sou um desenvolvedor web formado em Análise e Desenvolvimento de Sistemas, com mais de 2 anos de experiência em projetos voluntários. Minhas principais habilidades são em <span className={styles.spanJs}>Javascript</span>, <span className={styles.spanReact}>ReactJS</span>, <span className={styles.spanNode}>NodeJS</span> e <span className={styles.spanSql}>SQL</span>, além de conhecimentos em Java, Angular e PHP.</p>
+                    <p>23 anos, formado em análise desenvolvimento de sistemas. Tenho mais de 2 anos de experiência com desenvolvimento web através de projetos voluntários.
+                    Minhas principais habilidades são: <span className={styles.spanJs}>Javascript</span>, <span className={styles.spanReact}>ReactJs</span>, <span className={styles.spanNode}>NodeJs</span> e <span className={styles.spanSql}>SQL</span>, além de conhecimentos em Java, Angular e PHP.</p>
 
             </section>
 

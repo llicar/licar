@@ -3,13 +3,25 @@
     overflow: hidden
     max-width: 100%
     background-color: var(--main-bg-color)
-    box-shadow: inset 0px 0px 50px 8px #FFFFFF
+    box-shadow: inset 0px 0px 80px 8px #FFFFFF
+    .gesture
+        width: 30px
+        position: absolute
+        z-index: 1
+        background-color: var(--main-bg-color)
+        border-radius: 50px
+        margin-top: 20vh
+        margin-left: -15px
+        box-shadow: 3px 3px 30px rgba(252, 253, 248, 0.5)
+        background: rgba(252, 253, 248, 0.7)
+        backdrop-filter: blur(3px)
+        -webkit-backdrop-filter: blur(3px)
+
 .inner
     display: flex
     align-items: center
     min-height: 200px
     min-width: 400px
-    z-index: 1
 
 .item
     min-height: 200px

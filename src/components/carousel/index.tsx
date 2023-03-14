@@ -2,6 +2,7 @@
 import styles from "./styles.module.sass"
 import {motion} from 'framer-motion'
 import {useState,useEffect,useRef} from 'react'
+import gesture from '../../assets/icons/gesture.png'
 
 type CarouselTypes = {
   images:string[]
@@ -23,21 +24,11 @@ const Carousel = ({images}:CarouselTypes) => {
   return (
     <div>
       <motion.div ref={carousel} className={styles.container} whileTap={{cursor:"grabbing"}}>
+      <img src={gesture} className={styles.gesture} />
         <motion.div className={styles.inner}
           drag="x"
           dragConstraints={{right:0, left:-width}}
-          initial={{x:0}}
-          animate={{
-            x: [-width,width],
-          }}
-          transition={{
-            duration: 40,
-            ease: "linear",
-            times: [0],
-            repeat: Infinity,
-          }}
         >
-
           {
             images.map((image)=>{
               console.log("imagem aquiwsrgrg")
